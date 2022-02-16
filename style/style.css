@@ -6,3 +6,6 @@
 h3 ~ p{
     margin-left: 15px;
 }
+h2 ~ h3{
+    margin-left: 10px;
+}
