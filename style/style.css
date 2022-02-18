@@ -58,6 +58,10 @@ img{
     border: 4px solid #045757;
 }
 
+.school{
+    text-decoration: underline;
+    /*transform: rotate(-25deg)  translateY(-25px);*/
+}
 
 /*Timeline*/
 
