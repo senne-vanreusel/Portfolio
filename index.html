@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="../style/style.css">
 </head>
-<body class="bg-dark min-vh-100">
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark text-light">
+<body class="background ">
+<nav class="navbar navbar-expand-sm navbar-dark background text-light">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-target="#navbarContent" data-bs-toggle="collapse"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,37 +30,53 @@
     </div>
 </nav>
 <main class="p-sm-4 text-light mb-5">
-    <div class="vh-100">
+    <div class="min-vh-100">
         <div class="text-center">
-            <img src="assets/ProfilePic.jpg" alt="Profile picture" class="rounded-circle">
+            <img src="assets/ProfilePic.jpg" alt="Profile picture" class="rounded-circle profilePic">
         </div>
-        <h1 class="text-primary text-center pb-2 mb-5">Senne Van Reusel</h1>
+        <h1 class="title text-center pb-2 mb-5">Senne Van Reusel</h1>
         <h2>Introductie</h2>
         <p>Mijn naam is Senne. Ik ben student aan de Thomas More hogeschool in Geel. Ik ben al sinds mijn jeugd jaren
-            geïnteresseerd in alles wat met technologie te maken heeft. Hierdoor studeer ik nu Toegepaste Informatica met
-            specialisatie Applicatie Development en AI. Ik daag mezelf graag uit, dit maakt mij enthusiast om dingen bij te
-            leren. Ik heb dit jaar ook besloten om voor mijn Linux Essentials Certificaat te gaan en kan met trots zeggen
+            geïnteresseerd in alles wat met technologie te maken heeft. Hierdoor studeer ik nu Toegepaste Informatica
+            met
+            specialisatie Applicatie Development en AI. Ik daag mezelf graag uit, dit maakt mij enthusiast om dingen bij
+            te
+            leren. Ik heb dit jaar ook besloten om voor mijn Linux Essentials Certificaat te gaan en kan met trots
+            zeggen
             dat ik deze gehaald heb. Mijn vrije tijd vul ik op met Atletiek, programmeren en 3D-ontwerp.</p>
-        <div class="text-center"><a href="#projects"><i class="fa-solid fa-angle-down"></i></a></div>
+        <div class="text-center mb-5"><a href="#projects"><i class="fa-solid fa-angle-down fa-2x fa-bounce" style="display: block"></i></a></div>
     </div>
+
+
 
     <div id="projects">
         <h2 class="text-center">Mijn projecten</h2>
         <div class="d-flex flex-wrap justify-content-between">
-            <div class="card text-white bg-secondary mb-3 col-md-4" style="height:300px; width: 300px;">
+            <div class="card text-white secondaryBackground mb-3 col-sm-6 col-md-4">
                 <div class="card-header">Pokédex</div>
                 <div class="card-body">
-                    <a href="https://senne-pokedex.netlify.app"><img class="mx-auto d-block" src="../assets/pokedexIcon.png"
+                    <a href="https://senne-pokedex.netlify.app"><img class="mx-auto d-block"
+                                                                     src="../assets/pokedexIcon.png"
                                                                      alt="Icon from app"></a>
-                    <p class="card-text">A pokédex with all the pokémon from gen 1 to gen 8.</p>
+                    <p class="card-text">Een pokédex app met alle pokémon van gen 1 tot gen 8</p>
+                </div>
+                <div class="card-footer row">
+                    <p class="col-sm-6">Javascript</p>
+                    <p class="col-sm-6 float-end">Cordova</p>
                 </div>
             </div>
-            <div class="card text-white bg-secondary mb-3 col-md-4" style="height:300px; width: 300px;">
-                <div class="card-header">Pokédex</div>
-                <div class="card-body">
-                    <a href="https://senne-pokedex.netlify.app"><img class="mx-auto d-block" src="../assets/pokedexIcon.png"
+            <div class="card text-white secondaryBackground mb-3 col-sm-6 col-md-4">
+                <div class="card-header">SMO-A</div>
+                <div class="card-body container">
+                    <a href="https://senne-pokedex.netlify.app"><img class="mx-auto d-block"
+                                                                     src="../assets/under construction.png"
                                                                      alt="Icon from app"></a>
-                    <p class="card-text">A pokédex with all the pokémon from gen 1 to gen 8.</p>
+                    <p class="card-text">Een php applicatie voor
+                        consultants</p>
+                </div>
+                <div class="card-footer row">
+                    <p class="col-sm-6">PHP</p>
+                    <p class="col-sm-6 float-end">Laravel</p>
                 </div>
             </div>
         </div>
@@ -69,7 +85,7 @@
 
 
 </main>
-<footer class="fixed-bottom text-center bg-dark pt-2">
+<footer class="fixed-bottom text-center background">
     <p><a href="https://github.com/senne-vanreusel"><i class="fa-brands fa-github fa-2x mx-4"></i></a><a
             href="https://www.linkedin.com/in/senne-van-reusel-633a0922b/"><i
             class="fa-brands fa-linkedin fa-2x mx-4"></i></a></p>
