@@ -36,14 +36,12 @@
         </div>
         <h1 class="title text-center pb-2 mb-5">Senne Van Reusel</h1>
         <h2>Introductie</h2>
-        <p>Mijn naam is Senne. Ik ben student aan de Thomas More hogeschool in Geel. Ik ben al sinds mijn jeugdjaren
+        <p>Mijn naam is Senne, student aan de Thomas More hogeschool in Geel. Ik ben al sinds mijn jeugdjaren
             geïnteresseerd in alles wat met technologie te maken heeft. Hierdoor studeer ik nu Toegepaste Informatica
             met
-            specialisatie Applicatie Development en AI. Ik daag mezelf graag uit, dit maakt mij enthousiast om dingen
-            bij
-            te
-            leren. Ik heb dit jaar ook besloten om voor mijn Linux Essentials Certificaat te gaan en kan met trots
-            zeggen
+            specialisatie Applicatie Development en AI. Ik daag mezelf graag uit, dit maakt mij enthousiast om nieuwe
+            uitdagingen aan te gaan zoals het behalen van
+            het Linux Essentials Certificaat en ik kan met trots zeggen
             dat ik deze heb behaald. Mijn vrije tijd besteed ik aan atletiek, programmeren en 3D-ontwerp.</p>
         <div class="text-center mb-5"><a href="#timeline"><i class="fa-solid fa-angle-down fa-2x fa-bounce"
                                                              style="display: block"></i></a></div>
@@ -52,13 +50,13 @@
 
     <div class="row text-center" id="timeline">
         <div class="col-md-3 col-sm-6 mt-4 mx-0 px-0">
-            <p class="school">Kardinaal Van Roey</p>
+            <p class="school">Kardinaal Van Roey ~ Lille</p>
             <hr>
             <p>2013-2015</p>
             <p>Moderne A</p>
         </div>
         <div class="col-md-3 col-sm-6 mt-4 mx-0 px-0">
-            <p class="school">Koninklijk Atheneum</p>
+            <p class="school">Koninklijk Atheneum ~ Malle</p>
             <hr>
             <p>2015-2019</p>
             <p>Sportwetenschappen</p>
@@ -66,16 +64,16 @@
             <p>IT & Ontwikkeling</p>
         </div>
         <div class="col-md-3 col-sm-6 mt-4 mx-0 px-0">
-            <p class="school">Karel de Grote</p>
+            <p class="school">Karel de Grote ~ Antwerpen</p>
             <hr>
             <p>2019-2021</p>
-            <p>Toegepaste Informatica</p>
+            <p>Toegepaste Informatica <br>(Applicatie Development)</p>
         </div>
         <div class="col-md-3 col-sm-6 mt-4 mx-0 px-0">
-            <p class="school">Thomas More</p>
+            <p class="school">Thomas More ~ Geel</p>
             <hr>
             <p>2021-heden</p>
-            <p>Toegepaste Informatica</p>
+            <p>Toegepaste Informatica <br>(Applicatie Development / AI)</p>
         </div>
 
     </div>
@@ -88,22 +86,35 @@
             <div class="card text-white secondaryBackground mb-3 col-sm-6 col-md-4">
                 <div class="card-header">Pokédex</div>
                 <div class="card-body">
-                    <a href="https://senne-pokedex.netlify.app"><img class="mx-auto d-block"
-                                                                     src="../assets/pokedexIcon.png"
-                                                                     alt="Icon from app"></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="mx-auto d-block spin"
+                                                                                           src="../assets/pokedexIcon.png"
+                                                                                           alt="Icon from app"></a>
                     <p class="card-text text-center pt-3">Een pokédex app met alle pokémon van gen 1 tot gen 8</p>
                 </div>
                 <div class="card-footer">
-                    <div class="float-start ">Javascript</div>
+                    <div class="float-start ">JavaScript</div>
                     <div class="float-end ">Cordova</div>
+                </div>
+            </div>
+            <div class="card text-white secondaryBackground mb-3 col-sm-6 col-md-4">
+                <div class="card-header">Requirement Analyse Project</div>
+                <div class="card-body">
+                    <a href=""><img class="mx-auto d-block spin"
+                                    src="../assets/under construction.png"
+                                    alt="Icon from app"></a>
+                    <p class="card-text text-center pt-3">Requirement Analyse Project</p>
+                </div>
+                <div class="card-footer">
+                    <div class="float-start ">Use-Case Diagram</div>
+                    <div class="float-end ">ERD</div>
                 </div>
             </div>
             <div class="card text-white secondaryBackground mb-3 col-sm-6 col-md-4">
                 <div class="card-header">SMO-A</div>
                 <div class="card-body">
-                    <a href="https://senne-pokedex.netlify.app"><img class="mx-auto d-block"
-                                                                     src="../assets/under construction.png"
-                                                                     alt="Icon from app"></a>
+                    <a href=""><img class="mx-auto d-block spin"
+                                    src="../assets/under construction.png"
+                                    alt="Icon from app"></a>
                     <p class="card-text text-center pt-3">Een php applicatie voor consultants</p>
                 </div>
                 <div class="card-footer">
@@ -114,6 +125,60 @@
 
         </div>
 
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl ">
+            <div class="modal-content background text-light">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cordova Pokédex</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row">
+                    <h2 class="title">Opdracht</h2>
+                    <p>De opdracht voor het vak Cordova bestond uit het maken van een android applicatie die aan een
+                        aantal voorwaarden moest voldoen. We mochten het onderwerp zelf kiezen. Deze voorwaarden
+                        zijn: Cordova plug-in,
+                        data overdracht door middel van JSON (AJAX) met een online API en er moest een vorm van lokale
+                        opslag in zitten.</p>
+                    <h2 class="title">Mijn opdracht</h2>
+                    <p>Ik heb gekozen om een Pokédex te maken. Dit is een app waar je de verschillende statistieken van
+                        een bepaalde pokémon kan zien. Je krijgt informatie te zien over welk type pokémon het is,
+                        tegen wie zijn aanvallen effectief of zwak zijn, zijn statistieken en wat basis info zoals de
+                        gemiddelde grootte en het gewicht van de pokémon.
+                        <br> Op het beginscherm worden alle pokémon van de eerste generatie ingeladen, je kan de
+                        generatie veranderen door middel van de dropdown. Elke pokémon
+                        zit er in tot generatie 8. Ook kan je een bepaalde pokémon zoeken door middel van het zoekveld.
+                        Je kan 1 of meerdere pokémon toevoegen aan je favorieten door op het hartje te drukken. Dit
+                        wordt
+                        lokaal opgeslagen, hierdoor vind je snel jouw favoriete pokémon terug wanneer je de app
+                        heropstart.
+                        <br> Als plug-in heb ik gebruik gemaakt van de camera plug-in. Als je op de detailpagina van een
+                        pokémon staat en klikt op het shutter icoontje zal hij een gif over de camera tonen. Dit brengt
+                        een basis AR-feature tot leven. </p>
+                    <hr>
+                    <div class="d-flex flex-wrap justify-content-around">
+                        <img class="" src="../assets/Cordova/cordovaHome.jpg" alt="pokédex home">
+                        <img class="" src="../assets/Cordova/cordovaLiked.jpg" alt="pokédex liked">
+                        <img class="" src="../assets/Cordova/cordovaDetail.jpg" alt="pokédex detail">
+                        <img class="" src="../assets/Cordova/cordovaAR.jpg" alt="pokédex AR">
+                    </div>
+                    <br>
+                    <hr>
+                    <h2 class="title">Mijn ervaring</h2>
+                    <p>Door dit project heb ik veel JavaScript en jQuery kunnen oefenen, wat heel leerzaam was.
+                        Ik ben meer vertrouwd geraakt met Materialize alsook met het opvragen en verwerken van
+                        JSON-data. Het leuke aan dit project is dat we door de vrije keuze van het onderwerp iets binnen
+                        de
+                        eigen interesse konden kiezen. Ik gebruik de app zelf af en toe nog om statistieken
+                        op te zoeken over bepaalde pokémon.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 

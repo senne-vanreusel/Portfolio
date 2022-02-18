@@ -63,5 +63,15 @@ img{
     /*transform: rotate(-25deg)  translateY(-25px);*/
 }
 
-/*Timeline*/
+.spin{
+    transition: transform 1s;
+}
+.spin:hover{
+    transform: rotate(45deg);
+}
+
+.modal-body img{
+    height: 100%;
+    width: auto;
+}
 
