@@ -59,8 +59,15 @@ img{
 }
 
 .school{
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     /*transform: rotate(-25deg)  translateY(-25px);*/
+}
+
+.download{
+    background-color: #044343;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .spin{
