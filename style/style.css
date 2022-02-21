@@ -136,3 +136,11 @@ img {
     color: white;
 }
 
+.left{
+    text-align: left;
+}
+
+a:hover{
+    color: #045757;
+}
+
