@@ -81,6 +81,9 @@ img {
 .spin {
     transition: transform 1s;
 }
+li{
+    list-style-type: none;
+}
 
 @keyframes wiggle {
     0% {
@@ -144,7 +147,7 @@ a:hover{
     color: #045757;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
     h1{
         font-size: 1.17em;
     }
