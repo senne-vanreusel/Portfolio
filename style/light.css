@@ -1,0 +1,175 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.certificate {
+    height: 50px;
+    width: auto;
+}
+
+h3 ~ p {
+    margin-left: 20px;
+}
+
+h2 ~ h3 {
+    margin-left: 10px;
+}
+
+nav a:hover {
+    background-color: #5299D3;
+    border-radius: 5px;
+}
+
+hr{
+    background-color: #5299d3;
+}
+
+i {
+    color: #5299D3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-height: 250px;
+    width: auto;
+}
+
+.background {
+    background-color: #a2bce0;
+}
+
+p{
+    color: black;
+}
+
+.title {
+    color: #5299D3;
+}
+
+.secondaryBackground {
+    background-color: #5299D3;
+}
+
+
+.download {
+    background-color: #5299d3;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.download:hover {
+    background-color: #3097d5;
+}
+
+li{
+    list-style-type: none;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0);
+    }
+    10% {
+        transform: rotate(-15deg);
+    }
+    20% {
+        transform: rotate(15deg);
+    }
+    30% {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.spin:hover {
+    animation: wiggle 1s infinite;
+}
+
+.modal-body img {
+    height: 100%;
+    width: auto;
+}
+.card-body img{
+    height: auto;
+    max-height: 192px;
+    width: 100%;
+    max-width: 192px;
+}
+.banner {
+    max-width: 3000px;
+    max-height: 1252px;
+    height: auto;
+    width: 100%;
+}
+
+.bannerContainer{
+    position: relative;
+}
+.top-center{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.left{
+    text-align: left;
+}
+
+a:hover{
+    color: #3097d5;
+}
+
+/*lightmode*/
+.toggle{
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+}
+
+@media screen and (max-width: 720px) {
+    h1{
+        font-size: 1.17em;
+    }
+    .top-center{
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        transform: translate(-50%,-50%);
+        color: white;
+    }
+}
+@media screen and (max-width: 420px) {
+    h1{
+        font-size: 1em;
+    }
+    .top-center{
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        transform: translate(-50%,-50%);
+        color: white;
+    }
+}
+
