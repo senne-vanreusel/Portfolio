@@ -15,8 +15,8 @@
 .lightmode {
   --clr-light: #222222;
   --clr-dark: #f7f7f7;
-  --clr-lightGreen: #044343;
-  --clr-darkGreen: #045757;
+  --clr-lightGreen: #26b6b6;
+  --clr-darkGreen: #31d3d3;
   --background: var(--clr-dark);
   --button: var(--clr-darkGreen);
   --buttonHover: var(--clr-lightGreen);
