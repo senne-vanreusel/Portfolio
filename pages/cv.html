@@ -5,17 +5,29 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3F6XKYQKG"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-T3F6XKYQKG');
     </script>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T84NQBX');</script>
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T84NQBX');</script>
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -23,7 +35,8 @@
     <meta name="author" content="Senne Van Reusel">
     <meta name="publisher" content="Senne Van Reusel">
     <meta name="copyright" content="Senne Van Reusel">
-    <meta name="description" content="My portfolio with the projects I worked on, My curriculum Vitae and some contact info.">
+    <meta name="description"
+          content="My portfolio with the projects I worked on, My curriculum Vitae and some contact info.">
     <meta name="page-topic" content="Projects">
     <meta name="page-type" content="Portfolio">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/Favicon/apple-touch-icon.png">
@@ -41,12 +54,15 @@
 </head>
 <body class="background ">
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T84NQBX"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T84NQBX"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->
 <nav class="navbar navbar-expand-sm dark background container navbar-dark">
     <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
@@ -58,7 +74,9 @@
                     <a class="nav-link active" aria-current="page" href="#">CV</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i id="light-mode-toggle" class="fa-solid fa-sun light-mode-toggle text-light" aria-label="Toggle light mode"></i></a>
+                    <a class="nav-link" href="#"><i id="light-mode-toggle"
+                                                    class="fa-solid fa-sun light-mode-toggle text-light"
+                                                    aria-label="Toggle light mode"></i></a>
                 </li>
             </ul>
         </div>
@@ -74,62 +92,62 @@
         <h1 class="title text-center my-4">Curriculum Vitae</h1>
 
         <!--        vaardigheden-->
-        <div class="row  mx-auto text-center mt-5">
-                <div class="col-lg-4 col-md-5 col-sm-6 mt-4">
-                    <h3><i class="fa-solid fa-desktop"></i> Front end</h3>
-                    <ul class="row">
-                        <li class="">HTML</li>
-                        <li class="">CSS</li>
-                        <li class="">JS</li>
-                        <li class="">Bootstrap</li>
-                        <li class="">Sass</li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-5 col-sm-6 mt-4">
-                    <h3><i class="fa-solid fa-server"></i> Back end</h3>
-                    <ul class="row">
-                        <li class="">SQL</li>
-                        <li class="">VB.NET</li>
-                        <li class="">Python</li>
-                        <li class="">Java</li>
-                        <li class="">Laravel</li>
-                        <li class="">PHP</li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
-                    <h3><i class="fa-solid fa-ellipsis"></i> Andere</h3>
-                    <ul class="row">
-                        <li class="">Photoshop</li>
-                        <li class="">Office 365</li>
-                        <li class="">Git</li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-5 col-sm-6 mt-4">
-                    <h3><i class="fa-solid fa-certificate"></i> Certificaten</h3>
-                    <p>LE-1: Linux Essentials <a
-                            href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000511294/2nea28f2fu"><img
-                            class="certificate" src="../assets/LinuxEssentials-Web.png"
-                            alt="badge linux essentials"></a></p>
-                </div>
-                <div class="col-lg-4 col-md-5 col-sm-6 mt-4">
-                    <h3><i class="fa-solid fa-globe"></i> Talen</h3>
-                    <ul>
-                        <li>Nederlands (moedertaal)</li>
-                        <li>Frans (basis)</li>
-                        <li>Engels (vloeiend)</li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-5 col-sm-6 mt-4">
-                    <h3><i class="fa-solid fa-user-tie"></i> Persoonlijkheden</h3>
-                    <ul>
-                        <li>Goede communicatieve vaardigheden</li>
-                        <li>Sociaal</li>
-                        <li>Verantwoordelijk</li>
-                        <li>Loyaal</li>
-                        <li>Doorzetter</li>
-                    </ul>
-                </div>
+        <div class="row  mx-auto text-center mt-5 justify-content-around">
+            <div class="col-lg-4 col-md-5 col-sm-6 mt-4">
+                <h3><i class="fa-solid fa-desktop"></i> Front end</h3>
+                <ul class="row">
+                    <li class="">HTML</li>
+                    <li class="">CSS</li>
+                    <li class="">JS</li>
+                    <li class="">Bootstrap</li>
+                    <li class="">Sass</li>
+                </ul>
             </div>
+            <div class="col-lg-4 col-md-5 col-sm-6 mt-4">
+                <h3><i class="fa-solid fa-server"></i> Back end</h3>
+                <ul class="row">
+                    <li class="">SQL</li>
+                    <li class="">VB.NET</li>
+                    <li class="">Python</li>
+                    <li class="">Java</li>
+                    <li class="">Laravel</li>
+                    <li class="">PHP</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mt-4">
+                <h3><i class="fa-solid fa-ellipsis"></i> Andere</h3>
+                <ul class="row">
+                    <li class="">Photoshop</li>
+                    <li class="">Office 365</li>
+                    <li class="">Git</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-6 mt-4">
+                <h3><i class="fa-solid fa-certificate"></i> Certificaten</h3>
+                <p>LE-1: Linux Essentials <a
+                        href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000511294/2nea28f2fu"><img
+                        class="certificate" src="../assets/LinuxEssentials-Web.png"
+                        alt="badge linux essentials"></a></p>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-6 mt-4">
+                <h3><i class="fa-solid fa-globe"></i> Talen</h3>
+                <ul>
+                    <li>Nederlands (moedertaal)</li>
+                    <li>Frans (basis)</li>
+                    <li>Engels (vloeiend)</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-6 mt-4">
+                <h3><i class="fa-solid fa-user-tie"></i> Persoonlijkheden</h3>
+                <ul>
+                    <li>Goede communicatieve vaardigheden</li>
+                    <li>Sociaal</li>
+                    <li>Verantwoordelijk</li>
+                    <li>Loyaal</li>
+                    <li>Doorzetter</li>
+                </ul>
+            </div>
+        </div>
         <!--        school-->
         <div class="row text-center mt-5">
             <h2><i class="fa-solid fa-graduation-cap"></i> Studie</h2>
@@ -161,7 +179,7 @@
             </div>
         </div>
         <!--        werk-->
-        <div class=" mt-5">
+        <div class="row text-center mt-5">
             <h2 class="text-center my-4"><i class="fa-solid fa-suitcase"></i> Loopbaan</h2>
 
             <div class="row text-center mx-4">
@@ -212,7 +230,7 @@
 
     </div>
     <div class="d-flex justify-content-center">
-        <button class="btn download"><a href="../assets/CV Senne Van Reusel.pdf" download >Download CV</a>
+        <button class="btn download"><a href="../assets/CV Senne Van Reusel.pdf" download>Download CV</a>
         </button>
     </div>
 
