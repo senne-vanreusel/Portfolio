@@ -3,8 +3,8 @@
 :root {
   --clr-dark: #222222;
   --clr-light: #f7f7f7;
-  --clr-darkGreen: #044343;
-  --clr-lightGreen: #045757;
+  --clr-darkGreen: #055252;
+  --clr-lightGreen: #056969;
   --background: var(--clr-dark);
   --button: var(--clr-darkGreen);
   --buttonHover: var(--clr-lightGreen);
@@ -14,9 +14,9 @@
 
 .lightmode {
   --clr-light: #222222;
-  --clr-dark: #f7f7f7;
-  --clr-lightGreen: #26b6b6;
-  --clr-darkGreen: #31d3d3;
+  --clr-dark: grey;
+  --clr-lightGreen: #067272;
+  --clr-darkGreen: #066767;
   --background: var(--clr-dark);
   --button: var(--clr-darkGreen);
   --buttonHover: var(--clr-lightGreen);
@@ -48,6 +48,12 @@ body {
 .certificate {
   height: 50px;
   width: auto;
+}
+
+.dubbel {
+  width: 45%;
+  margin: auto;
+  height: 75px;
 }
 
 h3 ~ p {
@@ -98,6 +104,7 @@ img {
 
 .download:hover {
   background-color: var(--buttonHover);
+  color: var(--clr-light);
 }
 
 .spin {
@@ -153,11 +160,12 @@ li {
 
 .bannerContainer {
   position: relative;
+  text-shadow: 2px 2px black;
 }
 
 .top-center {
   position: absolute;
-  top: 20%;
+  top: 40%;
   left: 60%;
   transform: translate(-50%, -50%);
   color: var(--text);
@@ -168,7 +176,11 @@ li {
 }
 
 a:hover {
-  color: var(--buttonHover);
+  color: var(--clr-light);
+}
+
+.nav-link {
+  text-align: center;
 }
 
 @media screen and (max-width: 720px) {

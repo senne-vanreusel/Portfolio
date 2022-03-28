@@ -5,17 +5,29 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3F6XKYQKG"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-T3F6XKYQKG');
     </script>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T84NQBX');</script>
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-T84NQBX');</script>
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -23,7 +35,8 @@
     <meta name="author" content="Senne Van Reusel">
     <meta name="publisher" content="Senne Van Reusel">
     <meta name="copyright" content="Senne Van Reusel">
-    <meta name="description" content="My portfolio with the projects I worked on, My curriculum Vitae and some contact info.">
+    <meta name="description"
+          content="My portfolio with the projects I worked on, My curriculum Vitae and some contact info.">
     <meta name="page-topic" content="Projects">
     <meta name="page-type" content="Portfolio">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/Favicon/apple-touch-icon.png">
@@ -41,13 +54,16 @@
 </head>
 <body class="background ">
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T84NQBX"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T84NQBX"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<nav class="navbar navbar-expand-sm dark background">
+<nav class="navbar navbar-expand-sm dark background text-light container navbar-light">
     <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
@@ -58,10 +74,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="pages/cv.html">CV</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i id="light-mode-toggle"
+                                                    class="fa-solid fa-sun light-mode-toggle text-light"
+                                                    aria-label="Toggle light mode"></i></a>
+                </li>
             </ul>
-            <span class="navbar-text">
-                <i id="light-mode-toggle" class="fa-solid fa-sun light-mode-toggle" aria-label="Toggle light mode"></i>
-            </span>
         </div>
     </div>
 </nav>
@@ -71,10 +89,7 @@
     <h1 class="top-center pb-2 mb-5">Senne Van Reusel</h1>
 </div>
 <main class="p-sm-4  mb-5 container">
-    <div class="min-vh-100">
-        <div class="text-center">
-            <!--            <img src="assets/ProfilePic.jpg" alt="Profile picture" class="rounded-circle profilePic">-->
-        </div>
+    <div class="pb-4">
         <h2 class="text-center title">Introductie</h2>
         <p>Mijn naam is Senne, student aan de Thomas More hogeschool in Geel. Ik ben al sinds mijn jeugdjaren
             geïnteresseerd in alles wat met technologie te maken heeft. Hierdoor studeer ik nu Toegepaste Informatica
@@ -123,7 +138,7 @@
     <div id="projects">
         <h2 class="text-center mb-5">Projecten</h2>
         <div class="row justify-content-around">
-            <div class="card text-white secondaryBackground mb-3 mx-2 col-sm-5 col-md-3">
+            <div class="card text-white secondaryBackground mb-3 mx-2 col-sm-5 col-md-5 col-lg-3 p-0">
                 <div class="card-header">Pokédex</div>
                 <div class="card-body">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#cordovaModal"><img class="mx-auto d-block spin"
@@ -136,7 +151,7 @@
                     <div class="float-end ">Cordova</div>
                 </div>
             </div>
-            <div class="card text-white secondaryBackground mb-3 mx-2 col-sm-5 col-md-3">
+            <div class="card text-white secondaryBackground mb-3 mx-2 col-sm-5 col-md-5 col-lg-3 p-0">
                 <div class="card-header">Requirement Analyse Project</div>
                 <div class="card-body">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#raModal"><img class="mx-auto d-block spin"
@@ -149,7 +164,7 @@
                     <div class="float-end ">ERD</div>
                 </div>
             </div>
-            <div class="card text-white secondaryBackground mb-3 mx-2 col-sm-5 col-md-3">
+            <div class="card text-white secondaryBackground mb-3 mx-2 col-sm-5 col-md-5 col-lg-3 p-0">
                 <div class="card-header">SMO-A</div>
                 <div class="card-body">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#smoModal"><img class="mx-auto d-block spin"
@@ -162,8 +177,20 @@
                     <div class="float-end ">Laravel</div>
                 </div>
             </div>
+            <div class="card text-white secondaryBackground mb-3 mx-2 col-sm-5 col-md-5 col-lg-3 p-0">
+                <div class="card-header">Crypto Alert App</div>
+                <div class="card-body">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#discordModal"><img class="mx-auto d-block spin"
+                                                                                           src="assets/discordLogo.png"
+                                                                                           alt="Icon from app"></a>
+                    <p class="card-text text-center pt-3">Een Discord crypto API.</p>
+                </div>
+                <div class="card-footer">
+                    <div class="float-start ">Powershell</div>
+                    <div class="float-end ">API</div>
+                </div>
+            </div>
         </div>
-
     </div>
 
     <!-- Modal -->
@@ -212,6 +239,7 @@
                         de
                         eigen interesse konden kiezen. Ik gebruik de app zelf af en toe nog om statistieken
                         op te zoeken over bepaalde pokémon.</p>
+                    <hr>
                     <button class="btn download"><a href="assets/Cordova/app-debug.apk" id="downloadAPK"
                                                     download>Download APK</a>
                     </button>
@@ -234,7 +262,8 @@
                     <p>De opdracht voor het vak Requirement Analyse bestond uit het maken van een analyse en design
                         document voor het volgende team. Dit document bevat: de beschrijving van het project, de
                         requirement analyse met een overzicht van het use-case diagram, de functionele eisen met
-                        prototype schermen, de niet-functionele requirements en de prioriteit per functionaliteit volgens
+                        prototype schermen, de niet-functionele requirements en de prioriteit per functionaliteit
+                        volgens
                         het MoSCoW principe. Het was een groepsopdracht met volgende leden: Jari Van de Vel, Luca Van
                         Genechten, Marije Verstrepen, Miel Goossens, Yentl
                         Hendrickx en ikzelf.</p>
@@ -277,9 +306,42 @@
             </div>
         </div>
     </div>
+    <div class="modal fade " id="discordModal" tabindex="-1" aria-labelledby="discordModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl ">
+            <div class="modal-content background  container">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="discordModalLabel">Project Windows System Administration</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row">
+                    <h2 class="title">Opdracht</h2>
+                    <p>Voor het vak Windows System Administration kregen we de opdracht om een case study te maken over
+                        een onderwerp naar keuze. Ik koos ervoor om een crypto alert app te maken die iedere dag een
+                        bericht stuurt met info over de prijs van één Bitcoin, of het gestegen of gedaald is. Hiervoor
+                        wou ik de Twitter API gebruiken, maar Twitter accepteerde mijn API keys niet. Daarom ben ik
+                        overgeschakeld naar de Discord Webhook.</p>
+                    <h2 class="title">Mijn ervaring</h2>
+                    <p>Door dit project heb ik mijn kennis over Powershell kunnen vergroten.
+                        Ik ben meer vertrouwd geraakt met het gebruik van API's alsook met de Discord webhooks .
+                        Tijdens dit project heb ik mijn interessen over crypto kunnen combineren met het leren van Powershell. </p>
+                    <hr>
+                    <button class="btn download dubbel"><a href="#" id="downloadCaseStudy"
+                                                    download>Download Case-Study</a>
+                    </button>
+                    <button class="btn download dubbel"><a href="#" id="downloadPSScript"
+                                                    download>Download Powershell script</a>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </main>
-<footer class="fixed-bottom text-center background">
+<footer class="fixed-bottom text-center background pt-3">
     <p><a href="https://github.com/senne-vanreusel"><i class="fa-brands fa-github fa-2x mx-4"></i></a><a
             href="https://www.linkedin.com/in/senne-van-reusel-633a0922b/"><i
             class="fa-brands fa-linkedin fa-2x mx-4"></i></a></p>
